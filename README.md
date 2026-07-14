@@ -1,90 +1,93 @@
-AI Powered Debt Relief & Financial Recovery Platform
-Overview
-The AI Powered Debt Relief & Financial Recovery Platform is a web application that helps users manage their loans and receive AI-powered financial guidance.
+# AI Debt Relief
 
-The platform allows users to:
+## 📌 Overview
+AI Debt Relief is an AI-powered web application designed to help users manage and reduce their debt. The system provides personalized financial guidance, debt analysis, and repayment recommendations using intelligent algorithms.
 
-Register and Login securely
-Manage multiple loans
-Get AI-based debt settlement recommendations
-Generate negotiation letters using Google Gemini AI
-Analyze financial health
-View loan information through a modern dashboard
-Features
-User Authentication
-User Registration
-JWT Login
-Password Hashing
-Protected Routes
-Loan Management
-Add Loan
-View Loans
-Update Loan
-Delete Loan
-AI Features
-AI Chat Assistant
-Debt Settlement Recommendation
-AI Negotiation Letter Generator
-Financial Health Analysis
-Dashboard
-Modern React UI
-Responsive Design
-Statistics
-Charts
-Tech Stack
+## 🚀 Features
+- User Registration and Login
+- Secure Authentication
+- AI-based Debt Analysis
+- Personalized Repayment Suggestions
+- Debt Tracking Dashboard
+- Responsive User Interface
+- Real-time Data Processing
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React
+- Vite
+- Axis
+- React router
+- Bootstrap
+- Fast API
+- Sqlalchemy
+- Sql lite
+### Backend
+- Node.js
+- Express.js
+
+### AI
+- OpenAI API / Gemini API (if used)
+
+## 📂 Project Structure
+
+```
+AI-Debt-Relief/
+│── frontend/
+│── backend/
+│── database/
+│── README.md
+```
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/AI-Debt-Relief.git
+```
+
+### Install Dependencies
+
 Frontend
-React
-Vite
-Bootstrap
-Axios
-React Router
-Backend
-FastAPI
-SQLAlchemy
-SQLite
-JWT Authentication
-Google Gemini API
-Project Structure
-AI_Debt_Relief_Project
-│
-├── backend
-├── frontend
-├── database
-├── docs
-├── screenshots
-├── requirements.txt
-└── README.md
-Installation
-Clone the repository
 
-git clone https://github.com/sailusha-dev/AI_Debt_Relief_Project.git
-Go to the project
-
-cd AI_Debt_Relief_Project
-Install dependencies
-
-pip install -r requirements.txt
-Run backend
-
-uvicorn backend.app.main:app --reload
-Run frontend
-
+```bash
 cd frontend
 npm install
 npm run dev
-Environment Variables
-Create a .env file
+```
 
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-Future Enhancements
-Loan EMI Calculator
-Credit Score Prediction
-Email Notifications
-PDF Report Generation
-Cloud Database Integration
-Author
-A.Deepika
+Backend
 
-Computer Science Engineering Student
+```bash
+cd backend
+npm install
+npm start
+```
 
-Last Updated: July 2026
+## 🌐 Environment Variables
+
+Create a `.env` file in the backend folder.
+
+```
+PORT=5000
+JWT_SECRET=your_secret_key
+OPENAI_API_KEY=your_api_key
+```
+
+## 📈 Future Enhancements
+
+- Credit Score Prediction
+- EMI Calculator
+- Financial Report Generation
+- AI Chat Assistant
+- Multi-language Support
+
+## 🤝 Contributors
+
+- A.Deepika
+
+## 📄 License
+
+This project is developed for educational purposes.
