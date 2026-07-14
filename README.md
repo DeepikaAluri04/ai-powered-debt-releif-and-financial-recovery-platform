@@ -1,16 +1,99 @@
-# React + Vite
+# AI-Debt-Relief-and-financial-recovery-platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📌 Overview
+AI Debt Relief is an AI-powered web application designed to help users manage and reduce their debt. The system provides personalized financial guidance, debt analysis, and repayment recommendations using intelligent algorithms.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- User Registration and Login
+- Secure Authentication
+- AI-based Debt Analysis
+- Personalized Repayment Suggestions
+- Debt Tracking Dashboard
+- Responsive User Interface
+- Real-time Data Processing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
 
-## React Compiler
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
+- Node.js
+- Express.js
 
-## Expanding the Oxlint configuration
+### Database
+- MongoDB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### AI
+- OpenAI API / Gemini API (if used)
+
+## 📂 Project Structure
+
+```
+AI-Debt-Relief/
+│── frontend/
+│── backend/
+│── database/
+│── README.md
+```
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/AI-Debt-Relief.git
+```
+
+### Install Dependencies
+
+Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+## 🌐 Environment Variables
+
+Create a `.env` file in the backend folder.
+
+```
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+OPENAI_API_KEY=your_api_key
+```
+
+## 📷 Screenshots
+
+Add screenshots of your application here.
+
+## 📈 Future Enhancements
+
+- Credit Score Prediction
+- EMI Calculator
+- Financial Report Generation
+- AI Chat Assistant
+- Multi-language Support
+
+## 🤝 Contributors
+
+- Abdul Roqayya
+
+## 📄 License
+
+This project is developed for educational purposes.
