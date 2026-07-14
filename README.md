@@ -45,7 +45,7 @@ AI-Debt-Relief/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/DeepikaAluri04/ai-powered-debt-relief-and-financial-recovery-platform.git
+git clone https://github.com/DeepikaAluri04/ai-powered-debt-releif-and-financial-recovery-platform.git
 ```
 
 ### Install Dependencies
