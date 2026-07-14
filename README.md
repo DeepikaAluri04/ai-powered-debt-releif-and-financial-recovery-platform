@@ -45,7 +45,7 @@ AI-Debt-Relief/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Debt-Relief.git
+git clone https://github.com/DeepikaAluri04/AI-Debt-Relief.git
 ```
 
 ### Install Dependencies
